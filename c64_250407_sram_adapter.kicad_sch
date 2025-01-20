@@ -9627,7 +9627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF-820pF"
+		(property "Value" "82pF-820pF"
 			(at 95.25 97.7962 0)
 			(effects
 				(font
@@ -10585,7 +10585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF-820pF"
+		(property "Value" "82pF-820pF"
 			(at 76.2 97.7962 0)
 			(effects
 				(font

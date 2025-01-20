@@ -2753,7 +2753,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP?14*")
-		(path "/2dee4c9a-4943-4127-9c02-da5d46fd5069")
+		(path "/68a05479-e97e-4bda-b1b1-8a9392c1f647")
 		(sheetname "Root")
 		(sheetfile "c64_250407_sram_adapter.kicad_sch")
 		(attr smd)
@@ -5031,7 +5031,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF-820pF"
+		(property "Value" "82pF-820pF"
 			(at 1.25 2.25 90)
 			(layer "F.Fab")
 			(uuid "68145856-a69d-4489-a814-d29ba2255ccd")
@@ -5803,7 +5803,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP?14*")
-		(path "/3837e7c5-2bdf-4432-b9d5-ee79e2f3ad52")
+		(path "/20a1bb02-a5d6-444a-b05b-85767f161e7d")
 		(sheetname "Root")
 		(sheetfile "c64_250407_sram_adapter.kicad_sch")
 		(attr through_hole)
@@ -6360,7 +6360,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100pF-820pF"
+		(property "Value" "82pF-820pF"
 			(at 0 -1.85 90)
 			(layer "B.Fab")
 			(uuid "f1473a25-b06b-4d38-98f3-33ebccb67ec1")
@@ -7155,8 +7155,8 @@
 			)
 		)
 	)
-	(gr_text "If C204 on the motherboard\nis not fitted and the SRAM\nreplacement is unstable, fit \neither C5 (THT) or C4 (SMD)."
-		(at 71.882 74.295 -0)
+	(gr_text "If C203 on the motherboard\nis not fitted and the SRAM\nreplacement is unstable, fit \neither C5 (THT) or C4 (SMD)."
+		(at 71.882 74.295 0)
 		(layer "B.SilkS")
 		(uuid "0c2d2430-f830-4d8e-b8b2-11b82c1dd44a")
 		(effects
