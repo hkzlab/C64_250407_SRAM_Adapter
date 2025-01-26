@@ -27,14 +27,15 @@ The board was designed with [KiCad](https://kicad.org/) EDA.
 
 ### Bill of Materials
 
-| Component              | Qty | Type / Value                     | Notes                                                            |
-| ---------------------- | --- | -------------------------------- | ---------------------------------------------------------------- |
-| C1, C2, C3             |  3  | 100nF ceramic cap, SMD 1206      | Decoupling caps, rated at least 10V.                             |
-| C5                     |  1  | ~82-820pF ceramic cap, THT 2.5mm | Optional, install either this or C4 if C203 on mobo is missing   |
-| C4                     |  1  | ~82-820pF ceramic cap, SMD 1206  | Optional, install either this or C5 if C203 on mobo is missing   |
-| U1                     |  1  | 74HCT32, DIP14 or SO14           | Can be replaced with an ACT/ALS/LS/F. Do NOT use an HC.          |
-| U2                     |  1  | 74HCT573, DIP 20 or TSSOP20      | Can be replaced with an ACT/ALS/LS/F. Do NOT use an HC.          |
-| U3                     |  1  | 128Kx8 SRAM, DIP32 or SOP32      | I tested ICs between 75ns to 100ns without issue. 628128 pinout. |
+| Component              | Qty | Type / Value                     | Notes                                                                |
+| ---------------------- | --- | -------------------------------- | -------------------------------------------------------------------- |
+| C1, C2, C3             |  3  | 100nF ceramic cap, SMD 1206      | Decoupling caps, rated at least 10V.                                 |
+| C5                     |  1  | ~82-820pF ceramic cap, THT 2.5mm | Optional, install either this or C4 if C203 on mobo is missing       |
+| C4                     |  1  | ~82-820pF ceramic cap, SMD 1206  | Optional, install either this or C5 if C203 on mobo is missing       |
+| U1                     |  1  | 74HCT32, DIP14 or SO14           | Can be replaced with an ACT/ALS/LS/F. Do NOT use an HC.              |
+| U2                     |  1  | 74HCT573, DIP 20 or TSSOP20      | Can be replaced with an ACT/ALS/LS/F. Do NOT use an HC.              |
+| U3                     |  1  | 128Kx8 SRAM, DIP32 or SOP32      | I tested ICs between 75ns to 100ns without issue. 628128 pinout.     |
+| Headers                |  1  | 40p machined header strip        | Cut it into 4x8p, 1x2p and 5x1p pieces, then solder on the underside |
 
 C4/C5 adjust /CAS timing to make the board play nice in C64s that do not have C203 fitted.
 
