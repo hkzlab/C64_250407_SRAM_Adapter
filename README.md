@@ -17,6 +17,11 @@ You will have to socket your DRAM ICs to install this board.
 
 ![Rev. 1 board installed in a C64](pics/rev1_installed.jpg)
 
+### Ordering the boards
+
+You can order the board for this project at [PCBWay](https://www.pcbway.com/project/shareproject/C64_250407_SRAM_Adapter_9502264b.html) and support me or download 
+the gerbers and have them printed wherever you like!!!
+
 ## Features
 
 - You can choose to use SMD or DIP components for the logic and memory ICs
