@@ -39,7 +39,7 @@ The board was designed with [KiCad](https://kicad.org/) EDA.
 | U3                     |  1  | 128Kx8 SRAM, DIP32 or SOP32      | I tested ICs between 75ns to 100ns without issue. 628128 pinout.     |
 | Headers                |  1  | 40p machined header strip        | Cut it into 4x8p, 1x2p and 5x1p pieces, then solder on the underside |
 
-C4/C5 adjust /CAS timing to make the board play nice in C64s that do not have C203 fitted.
+C4/C5 adjust `/CAS` timing to make the board play nice in C64s that do not have C203 fitted.
 
 Value of C5/C4 is non critical, I had good luck with 300pF and 100pF caps. Note that I could also make do without the cap entirely
 by replacing U1 (the '32 gate) with a schottky based one, so LS/ALS/F family.
@@ -48,7 +48,7 @@ by replacing U1 (the '32 gate) with a schottky based one, so LS/ALS/F family.
 
 #### Rev. 1
 
-Rev. 1 lacks the space to solder C4/C5, you can just bodge a cap on the first two pins (GND and /CAS) of the bottom right header.
+Rev. 1 lacks the space to solder C4/C5, you can just bodge a cap on the first two pins (`GND` and `/CAS`) of the bottom right header.
 
 ![Capacaitor bodge mod on rev.1](pics/cap_mod.jpg)
 
