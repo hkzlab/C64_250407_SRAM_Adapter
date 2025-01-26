@@ -6,6 +6,8 @@ Any use of this project is **under your own responsibility**.
 You will be responsible of checking the correct construction and functionality of your board.
 By using this project You will agree that I cannot be held responsible if it will destroy any of your devices, damage your computer, burn down your house or whatever.
 
+**WARNING**: This is compatible with the 250407 board only!!!
+
 ## Introduction
 
 This board implements a static RAM replacement for the DRAMs on a C64 with a 250407 motherboard.
