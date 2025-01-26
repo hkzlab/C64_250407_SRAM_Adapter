@@ -47,12 +47,14 @@ by replacing U1 (the '32 gate) with a schottky based one, so LS/ALS/F family.
 #### Rev. 1
 
 Rev. 1 lacks the space to solder C4/C5, you can just bodge a cap on the first two pins (GND and /CAS) of the bottom right header.
+
 ![Capacaitor bodge mod on rev.1](pics/cap_mod.jpg)
 
 ### Known Issues
 
 I could not detect stability issues, the only problem I found is a graphical glitch on the title screen of ZetaWing 2,
 where a single lines of pixels is flickering.
+
 ![ZetaWing 2 title screen](pics/zetawing2_issue.jpg)
 
 Note that this same issue **happens with other SRAM mods** (meant for shortboards) bodged to work on this machine, and disappears when using real DRAM ICs.
