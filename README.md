@@ -42,7 +42,7 @@ The board was designed with [KiCad](https://kicad.org/) EDA.
 | U1                     |  1  | 74HCT32, DIP14 or SO14           | Can be replaced with an ACT/ALS/LS/F. Do NOT use an HC.              |
 | U2                     |  1  | 74HCT573, DIP 20 or TSSOP20      | Can be replaced with an ACT/ALS/LS/F. Do NOT use an HC.              |
 | U3                     |  1  | 128Kx8 SRAM, DIP32 or SOP32      | I tested ICs between 75ns to 100ns without issue. 628128 pinout.     |
-| Headers                |  1  | 40p machined header strip        | Cut it into 4x8p, 1x2p and 5x1p pieces, then solder on the underside |
+| Headers                |  1  | 40p 2.54mm machined header strip | Cut it into 4x8p, 1x2p and 5x1p pieces, then solder on the underside |
 
 C4/C5 adjust `/CAS` timing to make the board play nice in C64s that do not have C203 fitted.
 
