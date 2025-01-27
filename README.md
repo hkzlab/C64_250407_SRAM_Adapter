@@ -65,4 +65,5 @@ where a single lines of pixels is flickering.
 ![ZetaWing 2 title screen](pics/zetawing2_issue.jpg)
 
 Note that this same issue **happens with other SRAM mods** (meant for shortboards) bodged to work on this machine, and disappears when using real DRAM ICs.
-I suspect it is a quirk of my VIC-II, a 6569R3. Will update this section in case I ever get around to mod and use an 8565 or if I find a different revision of the 6569.
+
+This seems a quirk of my VIC-II, a 6569R3. I modified the motherboard to support an 8565 and the issue disappeared (tested with an 8565R2).
